@@ -32,11 +32,11 @@ foreach (Kurs kurs in kurslar)
 
 
 
-class kurs
+class Kurs
 {
-    public string kursadi { get; set; }
+    public string kursAdi { get; set; }
     public string egitmen { get; set; }
-    public int izlenmeorani { get; set; }
+    public int izlenmeOrani { get; set; }
 
 
 }
