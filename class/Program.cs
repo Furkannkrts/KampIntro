@@ -37,6 +37,8 @@ class Kurs
     public string kursAdi { get; set; }
     public string egitmen { get; set; }
     public int izlenmeOrani { get; set; }
+    public int dersSuresi { get; set; }
+
 
 
 }
